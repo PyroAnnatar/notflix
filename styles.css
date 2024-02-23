@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(netflixbackground.jpg) no-repeat center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  margin: 30px auto;
+  background-color: #00000070;
+  width: 85%;
+  padding-bottom: 35px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  color: white;
+}
+h3 {
+  font-size: 23px;
+}
+h1 {
+  text-transform: uppercase;
+  padding-top: 15px;
+  font-size: 60px;
+  font-family: "Bowlby One SC";
+  letter-spacing: 8px;
+}
+
+form {
+  width: 500px;
+  margin: auto;
+  background-color: #000000d5;
+  padding: 15px 5px 15px;
+  margin-top: 20px;
+}
+
+.abstract {
+  margin: 15px 35px 15px 35px;
+}
+
+#name,
+#age,
+#email,
+#selection {
+  width: 100%;
+  margin-top: 15px;
+  height: 35px;
+  padding: 5px;
+}
+
+span {
+  color: red;
+}
+button {
+  padding: 9px 60px;
+  border-radius: 50px;
+  margin: 0 150px 5px;
+  color: white;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+}
+
+button:hover {
+  color: red;
+  background-color: white;
+  cursor: pointer;
+}
